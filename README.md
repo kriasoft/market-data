@@ -1,4 +1,4 @@
-## MarketGrid.NET Data Server
+## Market Data Server
 
 A local database server and API for storing and reading market data such as quotes and trade-related data associated with equity, fixed-income, financial derivatives, currency, and other investment instruments.
 
