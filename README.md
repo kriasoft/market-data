@@ -2,7 +2,7 @@
 
 A local database server and API for storing and reading market data such as quotes and trade-related data associated with equity, fixed-income, financial derivatives, currency, and other investment instruments.
 
-### Software Requirements
+### System Requirements
 
  - Windows 7; Windows 8; Windows Server 2008 R2; or Windows Server 2012
  - Microsoft SQL Server 2012
