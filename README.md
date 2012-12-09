@@ -5,7 +5,7 @@ A local database server and API for storing and reading market data such as quot
 ### System Requirements
 
  - Windows 7; Windows 8; Windows Server 2008 R2; or Windows Server 2012
- - Microsoft SQL Server 2012
+ - Microsoft SQL Server 2012 (Optional)
 
 ### Contribute
 
