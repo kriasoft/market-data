@@ -106,6 +106,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Tick.sql" />
@@ -113,5 +114,12 @@
     <Build Include="dbo\Tables\Quote.sql" />
     <Build Include="dbo\Tables\Exchange.sql" />
     <Build Include="dbo\Tables\Version.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\ReferenceData.Exchange.sql" />
+    <None Include="Scripts\ReferenceData.Security.sql" />
   </ItemGroup>
 </Project>
