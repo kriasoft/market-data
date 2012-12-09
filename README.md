@@ -9,7 +9,7 @@ A local database server and API for storing and reading market data such as quot
 
 ### Contribute
 
-This project is developed with Microsoft Visual Studio 2012 and SSDT. If you're willing to contribute feel free to fork this repo and send a pull request with your updates, or participate in discussions and send feature requests.
+This project is developed with Microsoft Visual Studio 2012 and SSDT. If you're willing to contribute feel free to fork this repo and send a pull request with your updates, or participate in discussions and [send feature requests](https://github.com/kriasoft/market-data/issues/new?labels=enhancement).
 
 ### Contact
 
