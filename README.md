@@ -4,9 +4,9 @@ A local database server and API for storing and reading market data such as quot
 
 ### Reference Data Samples
 
-![A list of exchanges](https://github.com/kriasoft/market-data/blob/master/img/exchange.png)
+![A list of exchanges](https://raw.github.com/kriasoft/market-data/master/img/exchange.png)
 
-![A list of exchanges](https://github.com/kriasoft/market-data/blob/master/img/security.png)
+![A list of exchanges](https://raw.github.com/kriasoft/market-data/master/img/security.png)
 
 ### System Requirements
 
