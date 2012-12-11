@@ -2,7 +2,7 @@
 
 SELECT TOP(0) CAST([ExchangeID] AS SMALLINT) AS [ExchangeID], [Code], [Name], [Economy], [Headquarters], [MarketCap], [TradeValue] INTO #Temp FROM [dbo].[Exchange];
 
-BULK INSERT #Temp FROM '$(ScriptsDir)ReferenceData.Exchange.csv'
+BULK INSERT #Temp FROM '$(ReferenceDataDir)Exchange.csv'
 WITH (FIRSTROW = 2, FIELDTERMINATOR = ' | ', ROWTERMINATOR = '\n', KEEPNULLS);
 GO
 
@@ -32,7 +32,7 @@ GO
 
 SELECT TOP(0) [TypeID], [Name] INTO #Temp FROM [dbo].[SecurityType];
 
-BULK INSERT #Temp FROM '$(ScriptsDir)ReferenceData.SecurityType.csv'
+BULK INSERT #Temp FROM '$(ReferenceDataDir)SecurityType.csv'
 WITH (FIRSTROW = 2, FIELDTERMINATOR = ' | ', ROWTERMINATOR = '\n', KEEPNULLS);
 GO
 
@@ -62,7 +62,7 @@ SELECT TOP(0) CAST([SecurityID] AS SMALLINT) AS [SecurityID], [ExchangeID], [Typ
 SET IDENTITY_INSERT [dbo].[Security] ON;
 GO
 
-BULK INSERT #Temp FROM '$(ScriptsDir)ReferenceData.Security.csv'
+BULK INSERT #Temp FROM '$(ReferenceDataDir)Security.csv'
 WITH (FIRSTROW = 2, FIELDTERMINATOR = ' | ', ROWTERMINATOR = '\n', KEEPNULLS);
 GO
 

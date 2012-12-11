@@ -107,6 +107,7 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="Scripts" />
+    <Folder Include="ReferenceData" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Tick.sql" />
@@ -120,19 +121,13 @@
     <PostDeploy Include="Scripts\PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\ReferenceData.Exchange.csv">
-      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
-    </None>
-    <None Include="Scripts\ReferenceData.Security.csv">
-      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
-    </None>
-    <None Include="Scripts\ReferenceData.SecurityType.csv">
-      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
-    </None>
+    <None Include="ReferenceData\Exchange.csv" />
+    <None Include="ReferenceData\Security.csv" />
+    <None Include="ReferenceData\SecurityType.csv" />
   </ItemGroup>
   <ItemGroup>
-    <SqlCmdVariable Include="ScriptsDir">
-      <DefaultValue>$(ProjectDir)Scripts\</DefaultValue>
+    <SqlCmdVariable Include="ReferenceDataDir">
+      <DefaultValue>$(ProjectDir)ReferenceData\</DefaultValue>
     </SqlCmdVariable>
   </ItemGroup>
   <ItemGroup>
