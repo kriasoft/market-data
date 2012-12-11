@@ -1,0 +1,5 @@
+﻿ExchangeID | Code   | Name                 | Economy | Headquarters  | MarketCap | TradeValue
+1          | NYSE   | NYSE Euronext        | US,EU   | New York City | 14242     | 20161
+2          | NASDAQ | NASDAQ OMX           | US,EU   | New York City | 4687      | 13552
+3          | TSE    | Tokyo Stock Exchange | JP      | Tokyo         | 3325      | 3972
+17         | MICEX  | Moscow Exchange      | RU      | Moscow        | 800       | 514

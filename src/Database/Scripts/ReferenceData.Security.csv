@@ -1,0 +1,501 @@
+﻿SecurityID | ExchangeID | TypeID | Ticker | Name
+1          | 1          | 1      | MMM    | 3M Co.
+2          | 1          | 1      | ACE    | ACE Limited
+3          | 1          | 1      | ABT    | Abbott Laboratories
+4          | 1          | 1      | ANF    | Abercrombie & Fitch Company A
+5          | 1          | 1      | AC     | Accenture
+6          | 2          | 1      | ADBE   | Adobe Systems Inc
+7          | 1          | 1      | AMD    | Advanced Micro Devices
+8          | 1          | 1      | AES    | AES Corp
+9          | 1          | 1      | AET    | Aetna Inc
+10         | 1          | 1      | AFL    | AFLAC Inc
+11         | 1          | 1      | A      | Agilent Technologies Inc
+12         | 1          | 1      | GAS    | AGL Resources Inc.
+13         | 1          | 1      | APD    | Air Products & Chemicals Inc
+14         | 1          | 1      | ARG    | Airgas Inc
+15         | 2          | 1      | AKAM   | Akamai Technologies Inc
+16         | 1          | 1      | AA     | Alcoa Inc
+17         | 2          | 1      | ALX    | Alexion Pharmaceuticals
+18         | 1          | 1      | ATI    | Allegheny Technologies Inc
+19         | 1          | 1      | AG     | Allergan Inc
+20         | 1          | 1      | ALL    | Allstate Corp
+21         | 2          | 1      | ALTR   | Altera Corp
+22         | 1          | 1      | MO     | Altria Group Inc
+23         | 2          | 1      | AMZ    | Amazon.com Inc
+24         | 1          | 1      | AEE    | Ameren Corp
+25         | 1          | 1      | AEP    | American Electric Power
+26         | 1          | 1      | AXP    | American Express Co
+27         | 1          | 1      | AIG    | American Intl Group Inc
+28         | 1          | 1      | AMT    | American Tower Corp A
+29         | 1          | 1      | AMP    | Ameriprise Financial
+30         | 1          | 1      | ABC    | AmerisourceBergen Corp
+31         | 2          | 1      | AMG    | Amgen Inc
+32         | 2          | 1      | APH    | Amphenol Corp A
+33         | 1          | 1      | APC    | Anadarko Petroleum Corp
+34         | 1          | 1      | ADI    | Analog Devices Inc
+35         | 1          | 1      | AO     | Aon plc
+36         | 1          | 1      | APA    | Apache Corporatio,
+37         | 1          | 1      | AIV    | Apartment Investment & Mgmt
+38         | 2          | 1      | APOL   | Apollo Group Inc
+39         | 2          | 1      | AAPL   | Apple Inc.
+40         | 2          | 1      | AMAT   | Applied Materials Inc
+41         | 1          | 1      | ADM    | Archer-Daniels-Midland Co
+42         | 1          | 1      | AIZ    | Assurant Inc
+43         | 1          | 1      | T      | AT&T Inc
+44         | 2          | 1      | ADSK   | Autodesk Inc
+45         | 2          | 1      | ADP    | Automatic Data Processing
+46         | 1          | 1      | A      | AutoNation Inc
+47         | 1          | 1      | AZO    | AutoZone Inc
+48         | 1          | 1      | AVB    | AvalonBay Communities, Inc.
+49         | 1          | 1      | AVY    | Avery Dennison Corp
+50         | 1          | 1      | AVP    | Avon Products
+51         | 1          | 1      | BHI    | Baker Hughes Inc
+52         | 1          | 1      | BLL    | Ball Corp
+53         | 1          | 1      | BAC    | Bank of America Corp
+54         | 1          | 1      | BK     | The Bank of New York Mellon Corp.
+55         | 1          | 1      | BCR    | Bard (C.R.) Inc.
+56         | 1          | 1      | BAX    | Baxter International Inc.
+57         | 1          | 1      | BBT    | BB&T Corporation,
+58         | 1          | 1      | BEAM   | Beam Inc.
+59         | 1          | 1      | BDX    | Becton Dickinson,
+60         | 2          | 1      | BBBY   | Bed Bath & Beyond
+61         | 1          | 1      | BMS    | Bemis Company
+62         | 1          | 1      | BRK.B  | Berkshire Hathaway
+63         | 1          | 1      | BBY    | Best Buy Co. Inc.
+64         | 1          | 1      | BIG    | Big Lots Inc.
+65         | 2          | 1      | BIIB   | BIOGEN IDEC Inc.
+66         | 1          | 1      | BLK    | BlackRock
+67         | 1          | 1      | HRB    | Block H&R
+68         | 1          | 1      | BMC    | BMC Software
+69         | 1          | 1      | BA     | Boeing Company
+70         | 1          | 1      | BWA    | BorgWarner
+71         | 1          | 1      | BXP    | Boston Properties
+72         | 1          | 1      | BSX    | Boston Scientific
+73         | 1          | 1      | BMY    | Bristol-Myers Squibb
+74         | 2          | 1      | BRCM   | Broadcom Corporation
+75         | 1          | 1      | BF.B   | Brown-Forman Corporation
+76         | 2          | 1      | CHRW   | C. H. Robinson Worldwide
+77         | 2          | 1      | CA     | CA, Inc.
+78         | 2          | 1      | CVC    | Cablevision Systems Corp.
+79         | 1          | 1      | COG    | Cabot Oil & Gas
+80         | 1          | 1      | CAM    | Cameron International Corp.
+81         | 1          | 1      | CPB    | Campbell Soup
+82         | 1          | 1      | COF    | Capital One Financial
+83         | 1          | 1      | CAH    | Cardinal Health Inc.
+84         | 1          | 1      | CF     | Carefusion
+85         | 1          | 1      | KMX    | Carmax Inc
+86         | 1          | 1      | CCL    | Carnival Corp.
+87         | 1          | 1      | CAT    | Caterpillar Inc.
+88         | 1          | 1      | CBG    | CBRE Group
+89         | 1          | 1      | CBS    | CBS Corp.
+90         | 2          | 1      | CELG   | Celgene Corp.
+91         | 1          | 1      | CNP    | CenterPoint Energy
+92         | 1          | 1      | CTL    | CenturyLink Inc
+93         | 2          | 1      | CER    | Cerner
+94         | 1          | 1      | CF     | CF Industries Holdings Inc
+95         | 1          | 1      | SCHW   | Charles Schwab
+96         | 1          | 1      | CHK    | Chesapeake Energy
+97         | 1          | 1      | CVX    | Chevron Corp.
+98         | 2          | 1      | CMG    | Chipotle Mexican Grill
+99         | 1          | 1      | CB     | Chubb Corp.
+100        | 1          | 1      | CI     | CIGNA Corp.
+101        | 2          | 1      | CINF   | Cincinnati Financial
+102        | 2          | 1      | CTAS   | Cintas Corporation
+103        | 2          | 1      | CSCO   | Cisco Systems
+104        | 1          | 1      | C      | Citigroup Inc.
+105        | 2          | 1      | CTXS   | Citrix Systems
+106        | 1          | 1      | CLF    | Cliffs Natural Resources
+107        | 1          | 1      | CLX    | Clorox Co.
+108        | 2          | 1      | CME    | CME Group Inc.
+109        | 1          | 1      | CMS    | CMS Energy
+110        | 1          | 1      | COH    | Coach Inc.
+111        | 1          | 1      | KO     | Coca Cola Co.
+112        | 1          | 1      | CCE    | Coca-Cola Enterprises
+113        | 2          | 1      | CTSH   | Cognizant Technology Solutions
+114        | 1          | 1      | CL     | Colgate-Palmolive
+115        | 2          | 1      | CMCSA  | Comcast Corp.
+116        | 1          | 1      | CMA    | Comerica Inc.
+117        | 1          | 1      | CSC    | Computer Sciences Corp.
+118        | 1          | 1      | CAG    | ConAgra Foods Inc.
+119        | 1          | 1      | COP    | ConocoPhillips
+120        | 1          | 1      | CNX    | CONSOL Energy Inc.
+121        | 1          | 1      | ED     | Consolidated Edison,
+122        | 1          | 1      | STZ    | Constellation Brands
+123        | 1          | 1      | CBE    | Cooper Industries
+124        | 1          | 1      | GLW    | Corning Inc.
+125        | 2          | 1      | COST   | Costco Co.
+126        | 1          | 1      | CVH    | Coventry Health Care Inc.
+127        | 1          | 1      | COV    | Covidien plc
+128        | 1          | 1      | CCI    | Crown Castle International Corp.
+129        | 1          | 1      | CSX    | CSX Corp.
+130        | 1          | 1      | CMI    | Cummins Inc.
+131        | 1          | 1      | CVS    | CVS Caremark Corp.
+132        | 1          | 1      | DHI    | D. R. Horton
+133        | 1          | 1      | DHR    | Danaher Corp.
+134        | 1          | 1      | DRI    | Darden Restaurants
+135        | 1          | 1      | DVA    | DaVita Inc.
+136        | 1          | 1      | DF     | Dean Foods
+137        | 1          | 1      | DE     | Deere & Co.
+138        | 2          | 1      | DELL   | Dell Inc.
+139        | 1          | 1      | DNR    | Denbury Resources Inc.
+140        | 1          | 1      | XRAY   | Dentsply International
+141        | 1          | 1      | DV     | Devon Energy Corp.
+142        | 1          | 1      | DV     | DeVry | Inc.
+143        | 1          | 1      | DO     | Diamond Offshore Drilling
+144        | 2          | 1      | DTV    | DirecTV
+145        | 1          | 1      | DFS    | Discover Financial Services
+146        | 2          | 1      | DISCA  | Discovery Communications
+147        | 2          | 1      | DLTR   | Dollar Tree
+148        | 1          | 1      | D      | Dominion Resources
+149        | 1          | 1      | RRD    | Donnelley (R.R.) & Sons
+150        | 1          | 1      | DOV    | Dover Corp.
+151        | 1          | 1      | DOW    | Dow Chemical
+152        | 1          | 1      | DPS    | Dr Pepper Snapple Group
+153        | 1          | 1      | DTE    | DTE Energy Co.
+154        | 1          | 1      | DD     | Du Pont (E.I.)
+155        | 1          | 1      | DUK    | Duke Energy
+156        | 1          | 1      | DNB    | Dun & Bradstreet
+157        | 2          | 1      | ETFC   | E-Trade
+158        | 1          | 1      | EM     | Eastman Chemical
+159        | 1          | 1      | ET     | Eaton Corp.
+160        | 2          | 1      | EBAY   | eBay Inc.
+161        | 1          | 1      | ECL    | Ecolab Inc.
+162        | 1          | 1      | EIX    | Edison Int'l
+163        | 1          | 1      | EW     | Edwards Lifesciences
+164        | 2          | 1      | EA     | Electronic Arts
+165        | 1          | 1      | EMC    | EMC Corp.
+166        | 1          | 1      | EMR    | Emerson Electric
+167        | 1          | 1      | ESV    | Ensco plc
+168        | 1          | 1      | ETR    | Entergy Corp.
+169        | 1          | 1      | EOG    | EOG Resources
+170        | 1          | 1      | EQT    | EQT Corporation
+171        | 1          | 1      | EFX    | Equifax Inc.
+172        | 1          | 1      | EQR    | Equity Residential
+173        | 1          | 1      | EL     | Estee Lauder Cos.
+174        | 1          | 1      | EXC    | Exelon Corp.
+175        | 2          | 1      | EXPE   | Expedia Inc.
+176        | 2          | 1      | EXPD   | Expeditors Int'l
+177        | 2          | 1      | ESRX   | Express Scripts
+178        | 1          | 1      | XOM    | Exxon Mobil Corp.
+179        | 2          | 1      | FFIV   | F5 Networks
+180        | 1          | 1      | FDO    | Family Dollar Stores
+181        | 2          | 1      | FAST   | Fastenal Co
+182        | 1          | 1      | FII    | Federated Investors Inc.
+183        | 1          | 1      | FDX    | FedEx Corporation
+184        | 1          | 1      | FIS    | Fidelity National Information Services
+185        | 2          | 1      | FITB   | Fifth Third Bancorp
+186        | 1          | 1      | FH     | First Horizon National
+187        | 1          | 1      | FSLR   | First Solar Inc
+188        | 1          | 1      | FE     | FirstEnergy Corp
+189        | 2          | 1      | FISV   | Fiserv Inc
+190        | 1          | 1      | FLIR   | FLIR Systems
+191        | 1          | 1      | FLS    | Flowserve Corporation
+192        | 1          | 1      | FLR    | Fluor Corp.
+193        | 1          | 1      | FMC    | FMC Corporation
+194        | 1          | 1      | FTI    | FMC Technologies Inc.
+195        | 1          | 1      | F      | Ford Motor
+196        | 1          | 1      | FRX    | Forest Laboratories
+197        | 1          | 1      | FOSL   | Fossil | Inc.
+198        | 1          | 1      | BE     | Franklin Resources
+199        | 1          | 1      | FCX    | Freeport-McMoran Cp & Gld
+200        | 1          | 1      | FTR    | Frontier Communications
+201        | 1          | 1      | GME    | GameStop Corp.
+202        | 1          | 1      | GCI    | Gannett Co.
+203        | 1          | 1      | GPS    | Gap (The)
+204        | 1          | 1      | GD     | General Dynamics
+205        | 1          | 1      | GE     | General Electric
+206        | 1          | 1      | GIS    | General Mills
+207        | 1          | 1      | GPC    | Genuine Parts
+208        | 1          | 1      | GNW    | Genworth Financial Inc.
+209        | 2          | 1      | GILD   | Gilead Sciences
+210        | 1          | 1      | GS     | Goldman Sachs Group
+211        | 1          | 1      | GT     | Goodyear Tire & Rubber
+212        | 2          | 1      | GOOG   | Google Inc.
+213        | 1          | 1      | GWW    | Grainger (W.W.) Inc.
+214        | 1          | 1      | HAL    | Halliburton Co.
+215        | 1          | 1      | HOG    | Harley-Davidson
+216        | 1          | 1      | HAR    | Harman Int'l Industries
+217        | 1          | 1      | HRS    | Harris Corporation
+218        | 1          | 1      | HIG    | Hartford Financial Svc.Gp.
+219        | 1          | 1      | HAS    | Hasbro Inc.
+220        | 1          | 1      | HCP    | HCP Inc.
+221        | 1          | 1      | HC     | Health Care REIT
+222        | 1          | 1      | HNZ    | Heinz (H.J.)
+223        | 1          | 1      | HP     | Helmerich & Payne
+224        | 1          | 1      | HES    | Hess Corporation
+225        | 1          | 1      | HPQ    | Hewlett-Packard
+226        | 1          | 1      | HD     | Home Depot
+227        | 1          | 1      | HO     | Honeywell Int'l Inc.
+228        | 1          | 1      | HRL    | Hormel Foods Corp.
+229        | 1          | 1      | HSP    | Hospira Inc.
+230        | 1          | 1      | HST    | Host Hotels & Resorts
+231        | 2          | 1      | HCBK   | Hudson City Bancorp
+232        | 1          | 1      | HUM    | Humana Inc.
+233        | 2          | 1      | HBA    | Huntington Bancshares
+234        | 1          | 1      | ITW    | Illinois Tool Works
+235        | 1          | 1      | IR     | Ingersoll-Rand PLC
+236        | 1          | 1      | TEG    | Integrys Energy Group Inc.
+237        | 2          | 1      | INTC   | Intel Corp.
+238        | 1          | 1      | ICE    | IntercontinentalExchange Inc.
+239        | 1          | 1      | IBM    | International Bus. Machines
+240        | 1          | 1      | IFF    | International Flav/Frag
+241        | 1          | 1      | IGT    | International Game Technology
+242        | 1          | 1      | IP     | International Paper
+243        | 1          | 1      | IPG    | Interpublic Group
+244        | 2          | 1      | INTU   | Intuit Inc.
+245        | 2          | 1      | ISRG   | Intuitive Surgical Inc.
+246        | 1          | 1      | IVZ    | Invesco Ltd.
+247        | 1          | 1      | IRM    | Iron Mountain Incorporated
+248        | 1          | 1      | JBL    | Jabil Circuit
+249        | 1          | 1      | JEC    | Jacobs Engineering Group
+250        | 2          | 1      | JDSU   | JDS Uniphase Corp.
+251        | 1          | 1      | JNJ    | Johnson & Johnson
+252        | 1          | 1      | JCI    | Johnson Controls
+253        | 2          | 1      | JOY    | Joy Global Inc.
+254        | 1          | 1      | JPM    | JPMorgan Chase & Co.
+255        | 2          | 1      | JNPR   | Juniper Networks
+256        | 1          | 1      | K      | Kellogg Co.
+257        | 1          | 1      | KEY    | KeyCorp
+258        | 1          | 1      | KMB    | Kimberly-Clark
+259        | 1          | 1      | KIM    | Kimco Realty
+260        | 1          | 1      | KMI    | Kinder Morgan
+261        | 2          | 1      | KLAC   | KLA-Tencor Corp.
+262        | 1          | 1      | KSS    | Kohl's Corp.
+263        | 1          | 1      | KRFTV  | Kraft Foods Group Inc.
+264        | 1          | 1      | KFT    | Kraft Foods Inc-A
+265        | 1          | 1      | KR     | Kroger Co.
+266        | 1          | 1      | LLL    | L-3 Communications Holdings
+267        | 1          | 1      | LH     | Laboratory Corp. of America Holding
+268        | 2          | 1      | LRCX   | Lam Research
+269        | 1          | 1      | LM     | Legg Mason
+270        | 1          | 1      | LEG    | Leggett & Platt
+271        | 1          | 1      | LE     | Lennar Corp.
+272        | 1          | 1      | LUK    | Leucadia National Corp.
+273        | 1          | 1      | LXK    | Lexmark Int'l Inc
+274        | 2          | 1      | LIFE   | Life Technologies
+275        | 1          | 1      | LLY    | Lilly (Eli) & Co.
+276        | 1          | 1      | LTD    | Limited Brands Inc.
+277        | 1          | 1      | LNC    | Lincoln National
+278        | 2          | 1      | LLTC   | Linear Technology Corp.
+279        | 1          | 1      | LMT    | Lockheed Martin Corp.
+280        | 1          | 1      | L      | Loews Corp.
+281        | 1          | 1      | LO     | Lorillard Inc.
+282        | 1          | 1      | LOW    | Lowe's Cos.
+283        | 1          | 1      | LSI    | LSI Corporation
+284        | 1          | 1      | LYB    | LyondellBasell
+285        | 1          | 1      | MTB    | M&T Bank Corp.
+286        | 1          | 1      | M      | Macy's Inc.
+287        | 1          | 1      | MRO    | Marathon Oil Corp.
+288        | 1          | 1      | MPC    | Marathon Petroleum
+289        | 1          | 1      | MAR    | Marriott Int'l.
+290        | 1          | 1      | MMC    | Marsh & McLennan
+291        | 1          | 1      | MAS    | Masco Corp.
+292        | 1          | 1      | MA     | Mastercard Inc.
+293        | 1          | 1      | MAT    | Mattel Inc.
+294        | 1          | 1      | MKC    | McCormick & Co.
+295        | 1          | 1      | MCD    | McDonald's Corp.
+296        | 1          | 1      | MHP    | McGraw-Hill
+297        | 1          | 1      | MCK    | McKesson Corp.
+298        | 1          | 1      | MJ     | Mead Johnson
+299        | 1          | 1      | MWV    | MeadWestvaco Corporation
+300        | 1          | 1      | MDT    | Medtronic Inc.
+301        | 1          | 1      | MRK    | Merck & Co.
+302        | 1          | 1      | MET    | MetLife Inc.
+303        | 1          | 1      | PCS    | MetroPCS Communications Inc.
+304        | 2          | 1      | MCHP   | Microchip Technology
+305        | 2          | 1      | MU     | Micron Technology
+306        | 2          | 1      | MSFT   | Microsoft Corp.
+307        | 2          | 1      | MOLX   | Molex Inc.
+308        | 1          | 1      | TAP    | Molson Coors Brewing Company
+309        | 1          | 1      | MO     | Monsanto Co.
+310        | 2          | 1      | MNST   | Monster Beverage
+311        | 1          | 1      | MCO    | Moody's Corp
+312        | 1          | 1      | MS     | Morgan Stanley
+313        | 1          | 1      | MOS    | The Mosaic Company
+314        | 1          | 1      | MSI    | Motorola Solutions Inc.
+315        | 1          | 1      | MUR    | Murphy Oil
+316        | 2          | 1      | MYL    | Mylan Inc.
+317        | 1          | 1      | NBR    | Nabors Industries Ltd.
+318        | 2          | 1      | NDAQ   | NASDAQ OMX Group
+319        | 1          | 1      | NOV    | National Oilwell Varco Inc.
+320        | 2          | 1      | NTAP   | NetApp
+321        | 2          | 1      | NFLX   | NetFlix Inc.
+322        | 1          | 1      | NWL    | Newell Rubbermaid Co.
+323        | 1          | 1      | NFX    | Newfield Exploration Co
+324        | 1          | 1      | NEM    | Newmont Mining Corp. (Hldg. Co.)
+325        | 2          | 1      | NWSA   | News Corporation
+326        | 1          | 1      | NEE    | NextEra Energy Resources
+327        | 1          | 1      | NKE    | NIKE Inc.
+328        | 1          | 1      | NI     | NiSource Inc.
+329        | 1          | 1      | NE     | Noble Corp
+330        | 1          | 1      | NBL    | Noble Energy Inc
+331        | 1          | 1      | JW     | Nordstrom
+332        | 1          | 1      | NSC    | Norfolk Southern Corp.
+333        | 2          | 1      | NTRS   | Northern Trust Corp.
+334        | 1          | 1      | NOC    | Northrop Grumman Corp.
+335        | 1          | 1      | NU     | Northeast Utilities
+336        | 1          | 1      | NRG    | NRG Energy
+337        | 1          | 1      | NUE    | Nucor Corp.
+338        | 2          | 1      | NVDA   | Nvidia Corporation
+339        | 1          | 1      | NYX    | NYSE Euronext
+340        | 2          | 1      | ORLY   | O'Reilly Automotive
+341        | 1          | 1      | OXY    | Occidental Petroleum
+342        | 1          | 1      | OMC    | Omnicom Group
+343        | 1          | 1      | OKE    | ONEOK
+344        | 2          | 1      | ORCL   | Oracle Corp.
+345        | 1          | 1      | OI     | Owens-Illinois Inc
+346        | 2          | 1      | PCAR   | PACCAR Inc.
+347        | 1          | 1      | PLL    | Pall Corp.
+348        | 1          | 1      | PH     | Parker-Hannifin
+349        | 2          | 1      | PDCO   | Patterson Companies
+350        | 2          | 1      | PAYX   | Paychex Inc.
+351        | 1          | 1      | BTU    | Peabody Energy
+352        | 1          | 1      | JCP    | Penney (J.C.)
+353        | 2          | 1      | PBCT   | People's United Bank
+354        | 1          | 1      | POM    | Pepco Holdings Inc.
+355        | 1          | 1      | PEP    | PepsiCo Inc.
+356        | 1          | 1      | PKI    | PerkinElmer
+357        | 1          | 1      | PRGO   | Perrigo
+358        | 1          | 1      | PFE    | Pfizer Inc.
+359        | 1          | 1      | PCG    | PG&E Corp.
+360        | 1          | 1      | PM     | Philip Morris International
+361        | 1          | 1      | PSX    | Phillips 66
+362        | 1          | 1      | PNW    | Pinnacle West Capital
+363        | 1          | 1      | PXD    | Pioneer Natural Resources
+364        | 1          | 1      | PBI    | Pitney-Bowes
+365        | 1          | 1      | PCL    | Plum Creek Timber Co.
+366        | 1          | 1      | PNC    | PNC Financial Services
+367        | 1          | 1      | RL     | Polo Ralph Lauren Corp.
+368        | 1          | 1      | PPG    | PPG Industries
+369        | 1          | 1      | PPL    | PPL Corp.
+370        | 1          | 1      | PX     | Praxair Inc.
+371        | 1          | 1      | PCP    | Precision Castparts
+372        | 2          | 1      | PCL    | Priceline.com Inc
+373        | 1          | 1      | PFG    | Principal Financial Group
+374        | 1          | 1      | PG     | Procter & Gamble
+375        | 1          | 1      | PGR    | Progressive Corp.
+376        | 1          | 1      | PLD    | ProLogis
+377        | 1          | 1      | PRU    | Prudential Financial
+378        | 1          | 1      | PEG    | Public Serv. Enterprise Inc.
+379        | 1          | 1      | PSA    | Public Storage
+380        | 1          | 1      | PHM    | Pulte Homes Inc.
+381        | 1          | 1      | QEP    | QEP Resources
+382        | 1          | 1      | PWR    | Quanta Services Inc.
+383        | 2          | 1      | QCOM   | QUALCOMM Inc.
+384        | 1          | 1      | DGX    | Quest Diagnostics
+385        | 1          | 1      | RRC    | Range Resources Corp.
+386        | 1          | 1      | RT     | Raytheon Co.
+387        | 1          | 1      | RHT    | Red Hat Inc.
+388        | 1          | 1      | RF     | Regions Financial Corp.
+389        | 1          | 1      | RSG    | Republic Services Inc
+390        | 1          | 1      | RAI    | Reynolds American Inc.
+391        | 1          | 1      | RHI    | Robert Half International
+392        | 1          | 1      | ROK    | Rockwell Automation Inc.
+393        | 1          | 1      | COL    | Rockwell Collins
+394        | 1          | 1      | ROP    | Roper Industries
+395        | 2          | 1      | ROST   | Ross Stores Inc.
+396        | 1          | 1      | RDC    | Rowan Cos.
+397        | 1          | 1      | R      | Ryder System
+398        | 1          | 1      | SWY    | Safeway Inc.
+399        | 1          | 1      | SAI    | SAIC
+400        | 1          | 1      | CRM    | Salesforce.com
+401        | 2          | 1      | SNDK   | SanDisk Corporatio,
+402        | 1          | 1      | SCG    | SCANA Corp
+403        | 1          | 1      | SLB    | Schlumberger Ltd.
+404        | 1          | 1      | SNI    | Scripps Networks Interactive Inc.
+405        | 2          | 1      | STX    | Seagate Technology
+406        | 1          | 1      | SEE    | Sealed Air Corp.(New)
+407        | 1          | 1      | SRE    | Sempra Energy
+408        | 1          | 1      | SHW    | Sherwin-Williams
+409        | 2          | 1      | SIAL   | Sigma-Aldrich
+410        | 1          | 1      | SPG    | Simon Property Group Inc
+411        | 1          | 1      | SLM    | SLM Corporatio,
+412        | 1          | 1      | SJM    | Smucker (J.M.)
+413        | 1          | 1      | SNA    | Snap-On Inc.
+414        | 1          | 1      | SO     | Southern Co.
+415        | 1          | 1      | LUV    | Southwest Airlines
+416        | 1          | 1      | SW     | Southwestern Energy
+417        | 1          | 1      | SE     | Spectra Energy Corp.
+418        | 1          | 1      | S      | Sprint Nextel Corp.
+419        | 1          | 1      | STJ    | St Jude Medical
+420        | 1          | 1      | SWK    | Stanley Black & Decker
+421        | 2          | 1      | SPLS   | Staples Inc.
+422        | 2          | 1      | SBUX   | Starbucks Corp.
+423        | 1          | 1      | HOT    | Starwood Hotels & Resorts
+424        | 1          | 1      | STT    | State Street Corp.
+425        | 1          | 1      | SRCL   | Stericycle Inc
+426        | 1          | 1      | SYK    | Stryker Corp.
+427        | 1          | 1      | SU     | Sunoco Inc.
+428        | 1          | 1      | STI    | SunTrust Banks
+429        | 2          | 1      | SYMC   | Symantec Corp.
+430        | 1          | 1      | SYY    | Sysco Corp.
+431        | 2          | 1      | TROW   | T. Rowe Price Group
+432        | 1          | 1      | TGT    | Target Corp.
+433        | 1          | 1      | TEL    | TE Connectivity Ltd.
+434        | 1          | 1      | TE     | TECO Energy
+435        | 1          | 1      | THC    | Tenet Healthcare Corp.
+436        | 1          | 1      | TDC    | Teradata Corp.
+437        | 1          | 1      | TER    | Teradyne Inc.
+438        | 1          | 1      | TSO    | Tesoro Petroleum Co.
+439        | 2          | 1      | TX     | Texas Instruments
+440        | 1          | 1      | TXT    | Textron Inc.
+441        | 1          | 1      | HSY    | The Hershey Company
+442        | 1          | 1      | TRV    | The Travelers Companies Inc.
+443        | 1          | 1      | TMO    | Thermo Fisher Scientific
+444        | 1          | 1      | TIF    | Tiffany & Co.
+445        | 1          | 1      | TWX    | Time Warner Inc.
+446        | 1          | 1      | TWC    | Time Warner Cable Inc.
+447        | 1          | 1      | TIE    | Titanium Metals Corp
+448        | 1          | 1      | TJX    | TJX Companies Inc.
+449        | 1          | 1      | TMK    | Torchmark Corp.
+450        | 1          | 1      | TSS    | Total System Services
+451        | 2          | 1      | TRIP   | TripAdvisor
+452        | 1          | 1      | TS     | Tyson Foods
+453        | 1          | 1      | TYC    | Tyco International
+454        | 1          | 1      | USB    | U.S. Bancorp
+455        | 1          | 1      | UNP    | Union Pacific
+456        | 1          | 1      | UNH    | United Health Group Inc.
+457        | 1          | 1      | UPS    | United Parcel Service
+458        | 1          | 1      | X      | United States Steel Corp.
+459        | 1          | 1      | UTX    | United Technologies
+460        | 1          | 1      | UNM    | Unum Group
+461        | 2          | 1      | URB    | Urban Outfitters
+462        | 1          | 1      | VFC    | V.F. Corp.
+463        | 1          | 1      | VLO    | Valero Energy
+464        | 1          | 1      | VAR    | Varian Medical Systems
+465        | 1          | 1      | VTR    | Ventas Inc
+466        | 2          | 1      | VRS    | Verisign Inc.
+467        | 1          | 1      | VZ     | Verizon Communications
+468        | 2          | 1      | VIAB   | Viacom Inc.
+469        | 1          | 1      | V      | Visa Inc.
+470        | 1          | 1      | VNO    | Vornado Realty Trust
+471        | 1          | 1      | VMC    | Vulcan Materials
+472        | 1          | 1      | WMT    | Wal-Mart Stores
+473        | 1          | 1      | WAG    | Walgreen Co.
+474        | 1          | 1      | DIS    | Walt Disney Co.
+475        | 1          | 1      | WPO    | Washington Post Co B
+476        | 1          | 1      | WM     | Waste Management Inc.
+477        | 1          | 1      | WAT    | Waters Corporatio
+478        | 1          | 1      | WPI    | Watson Pharmaceuticals
+479        | 1          | 1      | WLP    | WellPoint Inc.
+480        | 1          | 1      | WFC    | Wells Fargo
+481        | 1          | 1      | WDC    | Western Digital
+482        | 1          | 1      | WU     | Western Union Co
+483        | 1          | 1      | WY     | Weyerhaeuser Corp.
+484        | 1          | 1      | WHR    | Whirlpool Corp.
+485        | 2          | 1      | WFM    | Whole Foods Market
+486        | 1          | 1      | WMB    | Williams Cos.
+487        | 1          | 1      | WI     | Windstream Corporation
+488        | 1          | 1      | WEC    | Wisconsin Energy Corporation
+489        | 1          | 1      | WPX    | WPX Energy | Inc.
+490        | 1          | 1      | WY     | Wyndham Worldwide
+491        | 2          | 1      | WYN    | Wynn Resorts Ltd
+492        | 1          | 1      | XEL    | Xcel Energy Inc
+493        | 1          | 1      | XRX    | Xerox Corp.
+494        | 2          | 1      | XLNX   | Xilinx Inc
+495        | 1          | 1      | XL     | XL Capital
+496        | 1          | 1      | XYL    | Xylem Inc.
+497        | 2          | 1      | YHOO   | Yahoo Inc.
+498        | 1          | 1      | YUM    | Yum! Brands Inc
+499        | 1          | 1      | ZMH    | Zimmer Holdings
+500        | 2          | 1      | ZIO    | Zions Bancorp

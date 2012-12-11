@@ -114,12 +114,32 @@
     <Build Include="dbo\Tables\Quote.sql" />
     <Build Include="dbo\Tables\Exchange.sql" />
     <Build Include="dbo\Tables\Version.sql" />
+    <Build Include="dbo\Tables\SecurityType.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\ReferenceData.Exchange.sql" />
-    <None Include="Scripts\ReferenceData.Security.sql" />
+    <None Include="Scripts\ReferenceData.Exchange.csv">
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\ReferenceData.Security.csv">
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\ReferenceData.SecurityType.csv">
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="ScriptsDir">
+      <DefaultValue>$(ProjectDir)Scripts\</DefaultValue>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Database.refactorlog" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
 </Project>
