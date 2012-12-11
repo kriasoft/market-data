@@ -2,10 +2,16 @@
 
 A local database server and API for storing and reading market data such as quotes and trade-related data associated with equity, fixed-income, financial derivatives, currency, and other investment instruments.
 
+### Reference Data Samples
+
+![A list of exchanges](https://github.com/kriasoft/market-data/blob/master/img/exchange.png)
+
+![A list of exchanges](https://github.com/kriasoft/market-data/blob/master/img/security.png)
+
 ### System Requirements
 
  - Windows 7; Windows 8; Windows Server 2008 R2; or Windows Server 2012
- - Microsoft SQL Server 2012 (Optional)
+ - Microsoft SQL Server 2012 (optional)
 
 ### Contribute
 

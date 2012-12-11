@@ -1,5 +1,8 @@
-﻿ExchangeID | Code   | Name                 | Economy | Headquarters  | MarketCap | TradeValue
-1          | NYSE   | NYSE Euronext        | US,EU   | New York City | 14242     | 20161
-2          | NASDAQ | NASDAQ OMX           | US,EU   | New York City | 4687      | 13552
-3          | TSE    | Tokyo Stock Exchange | JP      | Tokyo         | 3325      | 3972
-17         | MICEX  | Moscow Exchange      | RU      | Moscow        | 800       | 514
+﻿ExchangeID | Code   | Name                     | Economy | Headquarters  | MarketCap | TradeValue
+1          | NYSE   | NYSE Euronext            | US,EU   | New York City | 16302     | 12693
+2          | NASDAQ | NASDAQ OMX               | US,EU   | New York City | 5460      | 8914
+3          | LSE    | London Stock Exchange    | GB      | London        | 3526      | 1890
+4          | TSE    | Tokyo Stock Exchange     | JP      | Tokyo         | 3275      | 2866
+5          | SEHK   | Hong Kong Stock Exchange | HK      | Hong Kong     | 2633      | 913
+6          | SSE    | Shanghai Stock Exchange  | CN      | Shanghai      | 2314      | 2176
+18         | MICEX  | Moscow Exchange          | RU      | Moscow        | 800       | 514
