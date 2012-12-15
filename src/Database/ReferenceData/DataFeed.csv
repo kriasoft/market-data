@@ -1,0 +1,8 @@
+﻿DataFeedID | Name                | Description                                                                        | Website                    | Phone          | HasRealTime | HasLookup
+1          | ASCII Data          | Tick-by-tick, 1 minute, or daily up to 4Gb file size                               |                            |                | 0           | 0
+2          | Yahoo Finance       | Free End Of Day data for most US stocks, and other symbols. No tick or minute data | finance.yahoo.com          |                | 0           | 0
+3          | Google Finance      | Free End Of Day data for most US stocks, and other symbols. No tick or minute data | finance.google.com         |                | 0           | 0
+4          | MSN Money           | Free End Of Day data for most US stocks, and other symbols. No tick or minute data | moneycentral.msn.com       |                | 0           | 0
+5          | eSignal             | Tick-by-tick 60 days back, 6 months of minute, 12+ years of daily historical data  | www.esignal.com            | 1-800-815-8256 | 1           | 1
+6          | IQFeed              | Tick-by-tick 120 days back, 1 minute back to 2007, 10+ years of daily              | www.iqfeed.net             | 1-800-475-4755 | 1           | 1
+7          | Interactive Brokers | Second, minute or daily bars 1 year back                                           | www.interactivebrokers.com | 1-877-442-2757 | 1           | 1

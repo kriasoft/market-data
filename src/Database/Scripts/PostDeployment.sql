@@ -1,4 +1,8 @@
-﻿IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
+﻿-----------------------------------------------------------------------------------------------------------------------
+-- IMPORT THE LIST OF EXCHANGES
+-----------------------------------------------------------------------------------------------------------------------
+
+IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
 
 SELECT TOP(0) CAST([ExchangeID] AS SMALLINT) AS [ExchangeID], [Code], [Name], [Economy], [Headquarters], [MarketCap], [TradeValue] INTO #Temp FROM [dbo].[Exchange];
 
@@ -30,6 +34,44 @@ GO
 IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
 GO
 
+-----------------------------------------------------------------------------------------------------------------------
+-- IMPORT THE LIST OF DATA FEEDS
+-----------------------------------------------------------------------------------------------------------------------
+
+SELECT TOP(0) CAST([DataFeedID] AS TINYINT) AS [DataFeedID], [Name], [Description], [Website], [Phone], CAST([HasRealTime] AS NVARCHAR (20)) AS [HasRealTime], CAST([HasLookup] AS NVARCHAR (20)) AS [HasLookup] INTO #Temp FROM [dbo].[DataFeed];
+
+SET IDENTITY_INSERT [dbo].[DataFeed] ON;
+GO
+
+BULK INSERT #Temp FROM '$(ReferenceDataDir)DataFeed.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ' | ', ROWTERMINATOR = '\n', KEEPNULLS);
+GO
+
+MERGE INTO [dbo].[DataFeed] AS Target
+USING (SELECT [DataFeedID], [Name], [Description], CASE [Website] WHEN '' THEN NULL ELSE [Website] END AS [Website], CASE [Phone] WHEN '' THEN NULL ELSE [Phone] END AS [Phone], CASE [HasRealTime] WHEN '0' THEN 0 ELSE 1 END AS [HasRealTime], CASE [HasLookup] WHEN '0' THEN 0 ELSE 1 END AS [HasLookup] FROM #Temp) AS Source
+ON Target.[DataFeedID] = Source.[DataFeedID]
+-- update matched rows
+WHEN MATCHED THEN
+UPDATE SET [Name] = Source.[Name], [Description] = Source.[Description], [Website] = Source.[Website], [Phone] = Source.[Phone], [HasRealTime] = Source.[HasRealTime], [HasLookup] = Source.[HasLookup]
+-- insert new rows
+WHEN NOT MATCHED BY TARGET THEN
+INSERT ([DataFeedID], [Name], [Description], [Website], [Phone], [HasRealTime], [HasLookup])
+VALUES ([DataFeedID], [Name], [Description], [Website], [Phone], [HasRealTime], [HasLookup]);
+-- delete rows that are in the target but not the source
+-- WHEN NOT MATCHED BY SOURCE THEN 
+-- DELETE;
+GO
+
+SET IDENTITY_INSERT [dbo].[DataFeed] OFF;
+GO
+
+IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
+GO
+
+-----------------------------------------------------------------------------------------------------------------------
+-- IMPORT THE LIST OF SECURITY TYPES
+-----------------------------------------------------------------------------------------------------------------------
+
 SELECT TOP(0) [TypeID], [Name] INTO #Temp FROM [dbo].[SecurityType];
 
 BULK INSERT #Temp FROM '$(ReferenceDataDir)SecurityType.csv'
@@ -56,6 +98,10 @@ GO
 
 IF OBJECT_ID('tempdb..#Temp') IS NOT NULL DROP TABLE #Temp;
 GO
+
+-----------------------------------------------------------------------------------------------------------------------
+-- IMPORT THE LIST OF SECURITIES
+-----------------------------------------------------------------------------------------------------------------------
 
 SELECT TOP(0) CAST([SecurityID] AS SMALLINT) AS [SecurityID], [ExchangeID], [TypeID], [Ticker], [Name] INTO #Temp FROM [dbo].[Security];
 

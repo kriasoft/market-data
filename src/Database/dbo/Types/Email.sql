@@ -1,0 +1,3 @@
+﻿CREATE TYPE [dbo].[Email]
+    FROM NVARCHAR (100) NULL;
+

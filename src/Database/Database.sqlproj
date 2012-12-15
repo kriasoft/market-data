@@ -108,6 +108,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="Scripts" />
     <Folder Include="ReferenceData" />
+    <Folder Include="dbo\Types" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Tick.sql" />
@@ -116,6 +117,11 @@
     <Build Include="dbo\Tables\Exchange.sql" />
     <Build Include="dbo\Tables\Version.sql" />
     <Build Include="dbo\Tables\SecurityType.sql" />
+    <Build Include="dbo\Tables\DataFeed.sql" />
+    <Build Include="dbo\Types\Flag.sql" />
+    <Build Include="dbo\Types\Url.sql" />
+    <Build Include="dbo\Types\Phone.sql" />
+    <Build Include="dbo\Types\Email.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment.sql" />
@@ -124,6 +130,7 @@
     <None Include="ReferenceData\Exchange.csv" />
     <None Include="ReferenceData\Security.csv" />
     <None Include="ReferenceData\SecurityType.csv" />
+    <None Include="ReferenceData\DataFeed.csv" />
   </ItemGroup>
   <ItemGroup>
     <SqlCmdVariable Include="ReferenceDataDir">
